@@ -1,0 +1,37 @@
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    width: 100%;
+    height: 60px;
+
+
+    background-color: rgba(0, 0, 0, 0.349);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 1;
+}
+
+.logo img{
+    width: 60px;
+}
+
+
+
+.navbar__menu{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+
+
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+
